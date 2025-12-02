@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Contact | AutoLux</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <header class="navbar" role="navigation" aria-label="Main Navigation">
+    <div class="logo">AutoLux</div>
+   
+    <ul id="primary-menu">
+      <li><a href="index.html">Home</a></li>
+      <li><a href="models.html">Models</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="contact.html" class="active">Contact</a></li>
+    </ul>
+  </header>
+
+  <main class="content">
+  <h2>Contact Us</h2>
+  <section class="contact-section">
+    <div class="form-card">
+      <form onsubmit="return showMessage();">
+        <div class="form-grid">
+          <div class="form-field">
+            <label for="name">Full Name</label>
+            <input id="name" name="name" type="text" placeholder="John Doe" required />
+          </div>
+          <div class="form-field">
+            <label for="email">Email</label>
+            <input id="email" name="email" type="email" placeholder="name@example.com" required />
+          </div>
+          <div class="form-field">
+            <label for="phone">Phone</label>
+            <input id="phone" name="phone" type="tel" placeholder="+91 98765 43210" pattern="[0-9+\-\s()]{7,}" />
+          </div>
+          <div class="form-field">
+            <label for="subject">Subject</label>
+            <input id="subject" name="subject" type="text" placeholder="Inquiry about models" />
+          </div>
+          <div class="form-field full">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" rows="6" placeholder="How can we help?" required></textarea>
+          </div>
+        </div>
+        <div class="form-actions">
+          <button type="submit">Send Message</button>
+        </div>
+      </form>
+    </div>
+  </section>
+</main>
+
+
+    <footer>
+    <p>© 2025 World of Cars | All Rights Reserved</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
