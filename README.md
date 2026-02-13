@@ -1,6 +1,9 @@
 # AutoLux-The-Luxury-Cars-Showcase
 A clean, simple car showcase website built with HTML, CSS, and JavaScript. It includes pages for Home, About, Contact, and Models. The Models page lists luxury cars with key details like price (₹), seats, engine (cc), and fuel type (Petrol/Electric/Hybrid). Easy to read, fast to load, and simple to customize.
 
+#### 🚀 Live Demo
+👉 [Open the Website](https://auto-lux-the-luxury-cars-showcase.vercel.app)
+
 ## Features
 - Clean multi-page layout: Home, About, Contact, Models
 - Compact car spec blocks: price, seats, engine size, fuel type
